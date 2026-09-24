@@ -1,5 +1,6 @@
 # Diabetes Prediction | Machine Learning Classification
-**📌 Project Overview**
+## 📌 Project Overview 
+
 This project develops a machine learning classification model to predict whether a patient is likely to have diabetes based on demographic and medical diagnostic features.
 
 The project uses a diabetes dataset obtained from Kaggle and follows a standard end-to-end machine learning workflow:
@@ -22,7 +23,8 @@ Prediction
 
 
 
-**🎯 Problem Statement**
+## 🎯 Problem Statement
+
 Diabetes is a common chronic disease that can be influenced by factors such as glucose level, blood pressure, BMI, age, and other health-related measurements.
 
 The objective of this project is to build a supervised machine learning classification model that predicts the likelihood of diabetes from patient-level features.
@@ -38,7 +40,8 @@ Outcome = 1 → Diabetes
 
 
 
-**📊 Dataset**
+## 📊 Dataset
+
 The dataset was obtained from Kaggle.
 
 The dataset contains medical diagnostic measurements used to predict diabetes.
@@ -57,7 +60,8 @@ Outcome	Diabetes classification target
 
 
 
-**🔬 Machine Learning Workflow**
+## 🔬 Machine Learning Workflow
+
 The project follows this workflow:
 
   Dataset 
@@ -86,7 +90,7 @@ Prediction
 
 
 
-**🧹 Data Preprocessing**
+## 🧹 Data Preprocessing
 
 The preprocessing pipeline includes:
 
@@ -106,7 +110,7 @@ Scaling numerical features
 
 
 
-**🤖 Models**
+## 🤖 Models
 Several classification algorithms can be evaluated, including:
 
 Logistic Regression
@@ -119,22 +123,22 @@ The final model was selected based on validation performance and the project's e
 
 
 
-**📏 Model Evaluation**
+## 📏 Model Evaluation
 The following metrics are used to evaluate model performance:
 
-Accuracy
+**Accuracy**
 Measures the proportion of correctly classified observations.
 
-Precision
+**Precision**
 Measures how many predicted positive cases were actually positive.
 
-Recall
+**Recall**
 Measures how many actual positive cases were correctly identified.
 
-F1-Score
+**F1-Score**
 Provides a balance between precision and recall.
 
-ROC-AUC
+**ROC-AUC**
 Measures the model's ability to distinguish between the two classes across classification thresholds.
 
 For a medical prediction problem, recall, precision, ROC-AUC, and the confusion matrix should be considered alongside accuracy.
